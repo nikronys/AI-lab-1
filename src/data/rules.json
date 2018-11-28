@@ -2,8 +2,8 @@
   {
     "if": [
       {
-        "attr": "city",
-        "value": "Manchester"
+        "attr": "регион",
+        "value": "Северная Америка"
       }
     ],
     "then": {
@@ -70,8 +70,8 @@
         "value": "red"
       },
       {
-        "attr": "city",
-        "value": "Manchester"
+        "attr": "регион",
+        "value": "Южная Америка"
       }
     ],
     "then": {
@@ -90,8 +90,8 @@
         "value": "red"
       },
       {
-        "attr": "city",
-        "value": "London"
+        "attr": "регион",
+        "value": "Северная Америка"
       }
     ],
     "then": {
@@ -110,8 +110,8 @@
         "value": "blue"
       },
       {
-        "attr": "city",
-        "value": "London"
+        "attr": "регион",
+        "value": "Северная Америка"
       }
     ],
     "then": {
@@ -130,8 +130,8 @@
         "value": "blue"
       },
       {
-        "attr": "city",
-        "value": "other"
+        "attr": "регион",
+        "value": "Европа"
       }
     ],
     "then": {
@@ -150,8 +150,8 @@
         "value": "blue-white"
       },
       {
-        "attr": "city",
-        "value": "other"
+        "attr": "регион",
+        "value": "Европа"
       }
     ],
     "then": {
@@ -170,8 +170,8 @@
         "value": "blue-white"
       },
       {
-        "attr": "city",
-        "value": "Manchester"
+        "attr": "регион",
+        "value": "Южная америка"
       }
     ],
     "then": {
@@ -190,8 +190,8 @@
         "value": "white"
       },
       {
-        "attr": "city",
-        "value": "London"
+        "attr": "регион",
+        "value": "Северная Америка"
       }
     ],
     "then": {
@@ -210,8 +210,8 @@
         "value": "other"
       },
       {
-        "attr": "city",
-        "value": "London"
+        "attr": "регион",
+        "value": "Северная Америка"
       }
     ],
     "then": {
@@ -230,8 +230,8 @@
         "value": "red"
       },
       {
-        "attr": "city",
-        "value": "Liverpool"
+        "attr": "регион",
+        "value": "СНГ"
       }
     ],
     "then": {
@@ -250,8 +250,8 @@
         "value": "blue"
       },
       {
-        "attr": "city",
-        "value": "Liverpool"
+        "attr": "регион",
+        "value": "СНГ"
       }
     ],
     "then": {
@@ -270,8 +270,8 @@
         "value": "white"
       },
       {
-        "attr": "city",
-        "value": "other"
+        "attr": "регион",
+        "value": "Европа"
       }
     ],
     "then": {
@@ -290,8 +290,8 @@
         "value": "red"
       },
       {
-        "attr": "city",
-        "value": "other"
+        "attr": "регион",
+        "value": "Европа"
       }
     ],
     "then": {

@@ -1,11 +1,11 @@
 [
   {
-    "name": "city",
+    "name": "регион",
     "values": [
-      "London",
-      "Liverpool",
-      "Manchester",
-      "other"
+      "Северная Америка",
+      "Южная Америка",
+      "Европа",
+      "СНГ"
     ]
   },
   {

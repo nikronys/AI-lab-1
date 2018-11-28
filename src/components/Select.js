@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Select = ({ attribute, options, onChange }) => (
-  <div className="field has-addons has-addons-centered">
-    <div className="control">
-      <button className="button is-black is-large">
-        Choose {attribute} of your club:
+  <div className="colums has-addons has-addons-centered">
+    <div className="column">
+      <button className="button is-medium">
+        Выберите {attribute} вышей команды:
       </button>
     </div>
-    <div className="control">
-      <div className="select is-black is-large">
+    <div className="column">
+      <div className="select is-grey">
         <select
           value=""
           onChange={({ target }) => onChange(target.value)}

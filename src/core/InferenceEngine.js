@@ -30,6 +30,8 @@ export default class {
         }
 
         console.log(`> ask about ${target}`);
+        console.log(attributes)
+        console.log(target)
         const options = attributes.find(({ name }) => name === target).values;
         // eslint-disable-next-line no-await-in-loop
         const answer = await this.askQuestion(target, options);
