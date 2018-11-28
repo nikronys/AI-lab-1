@@ -47,12 +47,12 @@ class GamePage extends Component {
     if (finish) {
       return (
         <div className="container has-text-centered">
-          <h1 className="title">
-            {result ? `✨You are fun of ${result}!🔥` : 'Sorry, can\'t identify your club 😱('}
+          <h1 className="title is-1">
+            {result ? `You are fun of ${result}!` : 'Sorry, can\'t identify your club'}
           </h1>
           <KnowledgeBase rules={logs} />
           <br />
-          <button onClick={this.initState} className="button is-black is-large">Try Again!</button>
+          <button onClick={this.initState} className="button is-medium">Повторить</button>
         </div>
       );
     }

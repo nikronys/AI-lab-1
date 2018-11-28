@@ -19,11 +19,11 @@ const KeyValue = ({
     <div className="field is-grouped is-grouped-multiline">
       <div className="control">
         <div className="tags has-addons">
-          <span className={`tag is-${alt ? 'black' : 'dark'}`}>{attr}</span>
-          <span className={`tag is-${alt ? 'info' : 'white'}`}>{value}</span>
+          <span className={`tag is-${alt ? 'grey' : 'grey'}`}><i className="fas fa-underline">{attr}</i></span>
+          <span className={`tag is-${alt ? 'black' : 'white'}`}>{value}</span>
         </div>
       </div>
-      {showAnd && (<Keyword label="AND" />)}
+      {showAnd && (<Keyword label="and" />)}
     </div>
   </div>
 );
@@ -45,9 +45,9 @@ const KnowledgeBase = ({ rules }) => (
     <ul>
       {rules.map(rule => (
         <li className="level" key={rule.id}>
-          #{rule.id}
+          {rule.id}
           <div className="field is-grouped is-grouped-multiline">
-            <Keyword label="IF" />
+            <Keyword label="if" />
             {rule.if.map(({ attr, value }, index) => (
               <KeyValue
                 key={attr}
@@ -56,7 +56,7 @@ const KnowledgeBase = ({ rules }) => (
                 showAnd={index !== rule.if.length - 1}
               />
             ))}
-            <Keyword label="THEN" />
+            <Keyword label="then" />
             <KeyValue attr={rule.then.attr} value={rule.then.value} alt />
           </div>
         </li>

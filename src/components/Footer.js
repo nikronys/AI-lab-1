@@ -3,19 +3,16 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 const routes = [{
-  key: 'welcome',
-  label: 'Overview',
-}, {
   key: 'game',
-  label: 'Play',
+  label: 'Приложение',
 }, {
   key: 'knowledge',
-  label: 'Knowledge base',
+  label: 'База знаний',
 }];
 
 const Footer = ({ activeRoute, onRouteChange }) => (
   <div className="hero-foot">
-    <nav className="tabs is-boxed is-fullwidth">
+    <nav className="tabs">
       <div className="container">
         <ul>
           {routes.map(({ key, label }) => (
